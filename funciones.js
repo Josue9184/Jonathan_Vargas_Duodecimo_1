@@ -11,7 +11,7 @@ function validarFormulario() {
 
   if (nombre === "" || correo === "" || mensaje === "") {
     alert("Por favor, completa todos los campos del formulario.");
-    return false; // Evita el envío
+    return false;
   }
 
   if (!correo.includes("@")) {
